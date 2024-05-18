@@ -1,11 +1,15 @@
 {
-    "repositories": [
+    "name": "testowankolel/socute",
+    "description": "Some testing stuff",
+    "license": "MIT",
+    "authors": [
         {
-            "url": "https://github.com/c53julian/packagist-test.git",
-            "type": "git"
+            "name": "Julian Hector",
+            "email": "julian@cure53.de"
         }
     ],
-    "require": {
-      "c53julian/packagist-test": "dev-$(id>WINNER)"
-    }
+    "autoload": {
+        "psr-4": { "Julian\\Testing\\": "src" }
+    },
+    "require": {}
 }
