@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "url": "https://github.com/c53julian/packagist-test.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+      "c53julian/packagist-test": "dev-$(id>WINNER)"
+    }
+}
